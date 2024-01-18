@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+	<title>О нас</title>
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<nav class="navbar">
+				<a href="index.html" class="logo">
+					<img src="images/logo.svg" alt="">
+				</a>
+				<div class="hamburger toggle-button">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<div class="navbar-link">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="#">Команда</a></li>
+						<li><a href="blog.html">Блог</a></li>
+						<li><a href="products.html">Продукты</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+						<a href="#" class="btn-modal js-open-modal" data-modal="1">Войти</a>
+						<div class="modal" data-modal="1">
+							<span class="close"></span>
+						  <form class="form-modal" action="/">
+						  	<h2 class="form__title">Выполните вход или зарегистрируйтесь</h2>
+								<input type="name" name="name" placeholder="Полное имя" class="form__input form__input-big">
+								<input type="email" name="email" placeholder="Email" class="form__input form__input-big">
+								<a href="#" class="form__link">Забыли пароль?</a>
+								<button class="form__btn" type="button">Войти</button>
+							</form>
+					  </div>
+					  <div class="overlay js-overlay-modal"></div>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div class="intro intro-team"></div>
+
+	<section class="section">
+		<div class="container">
+			<div class="section__header section__header-center">
+				<h2 class="section__title">Наша команда</h2>
+				<p class="section__text">Команда Fonte Capital LTD – основа успеха. Каждый сотрудник Компании – это ценный актив в рабочем процессе фонда. Наша цель – создание такой рабочей атмосферы и условий, которые позволят максимально раскрыть потенциал каждого сотрудника для достижения максимального результата.</p>
+				<h3 class="section__subtitle">Видение, устойчивость, рост</h3>
+			</div>
+		</div>
+	</section>
+
+	<div class="section section-team">
+		<div class="container">
+			<div class="team">
+				<div class="team__item">
+					<img src="images/team-1.png" alt="">
+					<div class="team__content">
+					    <div class="team__title">Ержан Мусин<span>CEO</span></div>
+					    <p class="team__subtext">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nulla deleniti suscipit vero excepturi et voluptate architecto, corrupti amet ullam nam atque. Ipsa ducimus, expedita consequuntur facere perferendis ab maxime molestias?</p>
+				    </div>
+				</div>
+				<div class="team__item">
+					<img src="images/team-2.png" alt="">
+					<div class="team__content">
+					    <div class="team__title">Олжас Укенов<span>CFO </span></div>
+					    <p class="team__subtext">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nulla deleniti suscipit vero excepturi et voluptate architecto, corrupti amet ullam nam atque. Ipsa ducimus, expedita consequuntur facere perferendis ab maxime molestias?</p>
+				    </div>
+				</div>
+				<div class="team__item">
+					<img src="images/team-1.png" alt="">
+					<div class="team__content">
+					    <div class="team__title">Ержан Мусин<span>CEO</span></div>
+					    <p class="team__subtext">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nulla deleniti suscipit vero excepturi et voluptate architecto, corrupti amet ullam nam atque. Ipsa ducimus, expedita consequuntur facere perferendis ab maxime molestias?</p>
+				    </div>
+				</div>
+				<div class="team__item">
+					<img src="images/team-2.png" alt="">
+					<div class="team__content">
+					    <div class="team__title">Олжас Укенов<span>CFO </span></div>
+					    <p class="team__subtext">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Nulla deleniti suscipit vero excepturi et voluptate architecto, corrupti amet ullam nam atque. Ipsa ducimus, expedita consequuntur facere perferendis ab maxime molestias?</p>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="vacancies">
+		<div class="container">
+			<div class="vacancies__item">
+				<h2 class="vacancies__title">Вакансии</h2>
+				<p class="vacancies__text">Нет подходящей вакансии? Проявите инициативу, отправляйте резюме на почту <a href="email:hello@fff.kz">hello@fff.kz</a></p>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__item">
+				<div class="footer__col footer__col-first">
+					<a href="#" class="logo">
+						<img src="images/logo-2.svg" alt="">
+					</a>
+				</div>
+				<div class="footer__col footer__col-second">
+					<div class="footer__nav">
+						<nav class="footer__navbar">
+							<ul>
+								<li><a href="index.html">Главная</a></li>
+						    <li><a href="about.html">О нас</a></li>
+						    <li><a href="team.html">Команда</a></li>
+						    <li><a href="blog.html">Блог</a></li>
+						    <li><a href="products.html">Продукты</a></li>
+						    <li><a href="contact.html">Контакты</a></li>
+							</ul>
+						</nav>
+						<nav class="footer__navbar">
+							<ul>
+								<li><a href="#">Terms and conditions</a></li>
+						    <li><a href="#">Privacy policy</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__col footer__col-third">
+					<div class="social">
+						<a href="#" class="social__link">
+							<img src="images/fb.png" alt="">
+						</a>
+						<a href="#" class="social__link">
+							<img src="images/inst.png" alt="">
+						</a>
+						<a href="#" class="social__link">
+							<img src="images/twitter.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__cop">
+			<div class="container">
+				<div class="footer__title">© 2022 • Fonte • All rights reserved</div>
+				<p class="footer__text">Частная компания «FONTE Capital Ltd.»,  зарегистрированная по адресу: Есильский район, г. Нур-Султан, Мангилик Ел, 55/20, офис 345-346, БИН 220140900035, осуществляет свою деятельность в соответствии с законодательством Международного Финансового центра «Астана» (МФЦА)  имеет право осуществлять регулируемую деятельность по управлению коллективными инвестициями – на основании лицензии № AFSA-A-LA-2022-0004, от 27 января 2022 года на бессрочной основе</p>
+				<p class="footer__text">Стоимость инвестиции инвестора в инвестиционный фонд может увеличиваться или уменьшаться. Результаты инвестирования в прошлом не определяют доходы в будущем. Управляющая компания инвестиционного фонда или МФЦА не гарантируют доходности инвестиций. Инвестору необходимо ознакомиться с Уставом (Constitution) и Инвестиционным меморандумом (Offering Memorandum) инвестиционного фонда, его инвестиционной декларацией и определенными рисками перед инвестированием активов в инвестиционный фонд.</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+	<title>Fonte</title>
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<nav class="navbar">
+				<a href="#" class="logo">
+					<img class="logo__img" src="images/logo.svg" alt="">
+				</a>
+				<div class="hamburger toggle-button">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<div class="navbar-link">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="team.html">Команда</a></li>
+						<li><a href="blog.html">Блог</a></li>
+						<li><a href="products.html">Продукты</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+						<a href="#" class="btn-modal js-open-modal" data-modal="1">Войти</a>
+						<div class="modal" data-modal="1">
+							<span class="close"></span>
+						  <form class="form-modal" action="/">
+						  	<h2 class="form__title">Выполните вход или зарегистрируйтесь</h2>
+								<input type="name" name="name" placeholder="Полное имя" class="form__input form__input-big">
+								<input type="email" name="email" placeholder="Email" class="form__input form__input-big">
+								<a href="#" class="form__link">Забыли пароль?</a>
+								<button class="form__btn" type="button">Войти</button>
+							</form>
+					  </div>
+					  <div class="overlay js-overlay-modal"></div>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div class="slider">
+		<div class="slider__item">
+			<div class="container">
+				<div class="slider__content">
+					<h1 class="slider__title">Хедж-фонд</h1>
+					<p class="slider__text">Классический выбор профессиональных инвесторов с заданными умеренными параметрами риска. Основан на инвестировании в бумаги индекса S&P 500 с диверсификацией по 11 секторам экономики.</p>
+					<button class="btn" type="button">Подробнее</button>
+				</div>
+			</div>
+		</div>
+		<div class="slider__item slider__item-1">
+			<div class="container">
+				<div class="slider__content">
+					<h1 class="slider__title">Хедж-фонд</h1>
+					<p class="slider__text">Классический выбор профессиональных инвесторов с заданными умеренными параметрами риска. Основан на инвестировании в бумаги индекса S&P 500 с диверсификацией по 11 секторам экономики.</p>
+					<button class="btn" type="button">Подробнее</button>
+				</div>
+			</div>
+		</div>
+		<div class="slider__item slider__item-2">
+			<div class="container">
+				<div class="slider__content">
+					<h1 class="slider__title">Хедж-фонд</h1>
+					<p class="slider__text">Классический выбор профессиональных инвесторов с заданными умеренными параметрами риска. Основан на инвестировании в бумаги индекса S&P 500 с диверсификацией по 11 секторам экономики.</p>
+					<button class="btn" type="button">Подробнее</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="section">
+		<div class="container">
+			<div class="section__header">
+				<h2 class="section__title">О нас</h2>
+			</div>
+			<div class="about">
+				<div class="about__img">
+					<picture>
+					  <source media="(max-width:570px)" srcset="images/about-mob.jpg">
+					  <img src="images/about.jpg" alt="Flowers" style="width:auto;">
+					</picture>
+				</div>
+				<div class="about__content">
+					<p class="about_text">Наша Команда успешно осуществляет деятельность на нескольких рынках инвестиций. Богатство выбора инструментов этих рынков позволяет Нам успешно сохранять и преумножать капитал клиентов. </p>
+					<p class="about_text">Вступить в партнерство с Fonte могут как профессиональные инвестора, так и частные лица, только начинающие открывать для себя новые перспективы. Наша юрисдикция - Международный финансовый центр «Астана» (МФЦА). Комфортные налоговые условия и регуляторные политики обеспечивают необходимые свободы и преимущества для достижения целей инвестиций. </p>
+					<p class="about_text">В партнерстве с Fonte Capital LTD, инвесторы имеют возможность воспользоваться не только проверенными стратегиями, но и смогут совместно разработать персональные инвестиционные решения.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section-bg">
+		<div class="container">
+			<div class="section__header">
+				<h2 class="section__title section__title-cl">Наши ценности</h2>
+			</div>
+			<div class="values">
+
+				<div class="values__item">
+					<div class="values__icon">
+						<img src="images/reputation.svg" alt="" class="values__img">
+					</div>
+					<div class="values__content">
+						<h4 class="values__title">Стабильность</h4>
+						<p class="values__text">Сохранность капитала клиентов приоритетнее доходности - каждое решение взвешено, обдумано и оценено.</p>
+					</div>
+				</div>
+
+				<div class="values__item">
+					<div class="values__icon">
+						<img src="images/stability.svg" alt="" class="values__img">
+					</div>
+					<div class="values__content">
+						<h4 class="values__title">Устойчивость</h4>
+						<p class="values__text">Устойчивое развитие — основа нашей бизнес-модели. Начиная с поиска и оценки предоставившихся возможностей для бизнеса до последовательного развития наших проектов и реаллокации капитала в новые возможности.</p>
+					</div>
+				</div>
+
+				<div class="values__item values__item-mr">
+					<div class="values__icon">
+						<img src="images/sustainability.svg" alt="" class="values__img">
+					</div>
+					<div class="values__content">
+						<h4 class="values__title">Команда</h4>
+						<p class="values__text">Команда Fonte Capital LTD – основа успеха. Каждый сотрудник Компании – это ценный актив в рабочем процессе фонда. Наша цель – создание такой рабочей атмосферы и условий, которые позволят максимально раскрыть потенциал каждого сотрудника для достижения максимального результата.</p>
+					</div>
+				</div>
+
+				<div class="values__item values__item-mr">
+					<div class="values__icon">
+						<img src="images/team.svg" alt="" class="values__img">
+					</div>
+					<div class="values__content">
+						<h4 class="values__title">Репутация</h4>
+						<p class="values__text">Ответственность и этика – основа нашей деятельности. Деятельность в рамках лучших практик (Корпоративный Кодекс этики и стандарты профессионального поведения) позволяет предлагать клиентам более качественные инвестиционные продукты, отвечающие высоким требованиям и ожиданиям самых требовательных клиентов.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="section__header">
+				<h2 class="section__title">Наша команда</h2>
+				<p class="section__text">Команда Fonte Capital LTD – основа успеха. Каждый сотрудник Компании – это ценный актив в рабочем процессе фонда. Наша цель – создание такой рабочей атмосферы и условий, которые позволят максимально раскрыть потенциал каждого сотрудника для достижения максимального результата.</p>
+			</div>
+			<div class="team">
+				<a href="#" class="js-open-modal" data-modal="2">
+					<div class="team__item">
+							<img src="images/team-1.png" alt="" class="team__img">	
+						<div class="team__content">
+							<div class="team__title">Ержан Мусин<span>CEO</span></div>
+						</div>
+					</div>
+				</a>
+				<div class="modal" data-modal="2">
+					<span class="js-modal-close close">&times;</span>
+					<div class="team__inner">
+						<img class="team__icon" src="images/team-1.png" alt="">
+						<div class="team__info">
+								<h3 class="team__name">Ержан Мусин <span>CEO</span></h3>
+								<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore esse sint modi repellendus, nesciunt vero voluptatem expedita eaque impedit possimus placeat, cupiditate excepturi soluta nisi fugit fuga consequatur facilis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="overlay js-overlay-modal"></div>
+				<a href="#" class="js-open-modal" data-modal="3">
+					<div class="team__item">
+							<img src="images/team-2.png" alt="" class="team__img">	
+						<div class="team__content">
+							<div class="team__title">Олжас Укенов <span>CFO</span></div>
+						</div>
+					</div>
+				</a>
+				<div class="modal" data-modal="3">
+					<span class="js-modal-close close">&times;</span>
+					<div class="team__inner">
+						<img class="team__icon" src="images/team-2.png" alt="">
+						<div class="team__info">
+								<h3 class="team__name">Олжас Укенов <span>CFO</span></h3>
+								<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore esse sint modi repellendus, nesciunt vero voluptatem expedita eaque impedit possimus placeat, cupiditate excepturi soluta nisi fugit fuga consequatur facilis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="overlay js-overlay-modal"></div>
+				<a href="#" class="js-open-modal" data-modal="2">
+					<div class="team__item">
+							<img src="images/team-1.png" alt="" class="team__img">	
+						<div class="team__content">
+							<div class="team__title">Ержан Мусин<span>CEO</span></div>
+						</div>
+					</div>
+				</a>
+				<div class="modal" data-modal="2">
+					<span class="js-modal-close close">&times;</span>
+					<div class="team__inner">
+						<img class="team__icon" src="images/team-1.png" alt="">
+						<div class="team__info">
+								<h3 class="team__name">Ержан Мусин <span>CEO</span></h3>
+								<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore esse sint modi repellendus, nesciunt vero voluptatem expedita eaque impedit possimus placeat, cupiditate excepturi soluta nisi fugit fuga consequatur facilis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="overlay js-overlay-modal"></div>
+				<a href="#" class="js-open-modal" data-modal="3">
+					<div class="team__item">
+							<img src="images/team-2.png" alt="" class="team__img">	
+						<div class="team__content">
+							<div class="team__title">Олжас Укенов <span>CFO</span></div>
+						</div>
+					</div>
+				</a>
+				<div class="modal" data-modal="3">
+					<span class="js-modal-close close">&times;</span>
+					<div class="team__inner">
+						<img class="team__icon" src="images/team-2.png" alt="">
+						<div class="team__info">
+								<h3 class="team__name">Олжас Укенов <span>CFO</span></h3>
+								<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore esse sint modi repellendus, nesciunt vero voluptatem expedita eaque impedit possimus placeat, cupiditate excepturi soluta nisi fugit fuga consequatur facilis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="overlay js-overlay-modal"></div>
+				<a href="#" class="js-open-modal" data-modal="2">
+					<div class="team__item">
+							<img src="images/team-1.png" alt="" class="team__img">	
+						<div class="team__content">
+							<div class="team__title">Ержан Мусин<span>CEO</span></div>
+						</div>
+					</div>
+				</a>
+				<div class="modal" data-modal="2">
+					<span class="js-modal-close close">&times;</span>
+					<div class="team__inner">
+						<img class="team__icon" src="images/team-1.png" alt="">
+						<div class="team__info">
+								<h3 class="team__name">Ержан Мусин <span>CEO</span></h3>
+								<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore esse sint modi repellendus, nesciunt vero voluptatem expedita eaque impedit possimus placeat, cupiditate excepturi soluta nisi fugit fuga consequatur facilis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="overlay js-overlay-modal"></div>
+				<a href="#" class="js-open-modal" data-modal="3">
+					<div class="team__item">
+							<img src="images/team-2.png" alt="" class="team__img">	
+						<div class="team__content">
+							<div class="team__title">Олжас Укенов <span>CFO</span></div>
+						</div>
+					</div>
+				</a>
+				<div class="modal" data-modal="3">
+					<span class="js-modal-close close">&times;</span>
+					<div class="team__inner">
+						<img class="team__icon" src="images/team-2.png" alt="">
+						<div class="team__info">
+								<h3 class="team__name">Олжас Укенов <span>CFO</span></h3>
+								<p class="team__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus labore esse sint modi repellendus, nesciunt vero voluptatem expedita eaque impedit possimus placeat, cupiditate excepturi soluta nisi fugit fuga consequatur facilis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="overlay js-overlay-modal"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section-top">
+		<div class="container">
+			<div class="section__header">
+				<h2 class="section__title">Наши партнеры</h2>
+			</div>
+			<div class="logos">
+				<div class="logos__item">
+					<img src="images/SeedBox.png" alt="" class="logos__img">
+				</div>
+				<div class="logos__item">
+					<img src="images/Freedom Finance.png" alt="" class="logos__img">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section-blog">
+		<div class="container">
+			<div class="section__header">
+				<h2 class="section__title section__title-cl">Блог компании</h2>
+			</div>
+			<div class="blog blog__slider">
+				<div class="blog__item">
+					<img src="images/blog-1.jpg" alt="" class="blog__img">
+					<div class="blog__content">
+						<a href="#" class="blog__title">Рэй Далио перестал считать наличные «мусором»</a>
+						<a href="#" class="blog__link">Подробнее</a>
+					</div>
+				</div>
+				<div class="blog__item">
+					<img src="images/blog-2.jpg" alt="" class="blog__img">
+					<div class="blog__content">
+						<a href="#" class="blog__title">Рэй Далио перестал считать наличные «мусором»</a>
+						<a href="#" class="blog__link">Подробнее</a>
+					</div>
+				</div>
+				<div class="blog__item">
+					<img src="images/blog-3.jpg" alt="" class="blog__img">
+					<div class="blog__content">
+						<a href="#" class="blog__title">Рэй Далио перестал считать наличные «мусором»</a>
+						<a href="#" class="blog__link">Подробнее</a>
+					</div>
+				</div>
+				<div class="blog__item">
+					<img src="images/blog-1.jpg" alt="" class="blog__img">
+					<div class="blog__content">
+						<a href="#" class="blog__title">Рэй Далио перестал считать наличные «мусором»</a>
+						<a href="#" class="blog__link">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="section section-bg">
+		<div class="container">
+			<div class="contact">
+				<form class="form" action="/">
+					<input type="name" name="name" placeholder="Полное имя" class="form__input form__input-big">
+					<input type="email" name="email" placeholder="Email" class="form__input">
+					<input type="number" name="number" placeholder="Телефон" class="form__input">
+					<textarea class="form__textarea" placeholder="Текст обращения"></textarea>
+					<button class="form__btn" type="button">Получить консультацию</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__item">
+				<div class="footer__col footer__col-first">
+					<a href="#" class="logo">
+						<img src="images/logo-2.svg" alt="">
+					</a>
+				</div>
+				<div class="footer__col footer__col-second">
+					<div class="footer__nav">
+						<nav class="footer__navbar">
+							<ul>
+								<li><a href="#">Главная</a></li>
+						    <li><a href="about.html">О нас</a></li>
+						    <li><a href="team.html">Команда</a></li>
+						    <li><a href="blog.html">Блог</a></li>
+						    <li><a href="products.html">Продукты</a></li>
+						    <li><a href="contact.html">Контакты</a></li>
+							</ul>
+						</nav>
+						<nav class="footer__navbar">
+							<ul>
+								<li><a href="#">Terms and conditions</a></li>
+						    <li><a href="#">Privacy policy</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__col footer__col-third">
+					<div class="social">
+						<a href="#" class="social__link">
+							<img src="images/fb.png" alt="">
+						</a>
+						<a href="#" class="social__link">
+							<img src="images/inst.png" alt="">
+						</a>
+						<a href="#" class="social__link">
+							<img src="images/twitter.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__cop">
+			<div class="container">
+				<div class="footer__title">© 2022 • Fonte • All rights reserved</div>
+				<p class="footer__text">Частная компания «FONTE Capital Ltd.»,  зарегистрированная по адресу: Есильский район, г. Нур-Султан, Мангилик Ел, 55/20, офис 345-346, БИН 220140900035, осуществляет свою деятельность в соответствии с законодательством Международного Финансового центра «Астана» (МФЦА)  имеет право осуществлять регулируемую деятельность по управлению коллективными инвестициями – на основании лицензии № AFSA-A-LA-2022-0004, от 27 января 2022 года на бессрочной основе</p>
+				<p class="footer__text">Стоимость инвестиции инвестора в инвестиционный фонд может увеличиваться или уменьшаться. Результаты инвестирования в прошлом не определяют доходы в будущем. Управляющая компания инвестиционного фонда или МФЦА не гарантируют доходности инвестиций. Инвестору необходимо ознакомиться с Уставом (Constitution) и Инвестиционным меморандумом (Offering Memorandum) инвестиционного фонда, его инвестиционной декларацией и определенными рисками перед инвестированием активов в инвестиционный фонд.</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+</body>
+</html>
